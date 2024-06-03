@@ -1,52 +1,47 @@
 # Root Path =====================================================================================================
-dataset_root: &dataset_root /homes/gh653/Datasets
-restructured_csv_root: &restructured_csv_root  /homes/gh653/Datasets
-output_root: /homes/gh653/Projects/FairAffect
-code_root: /homes/gh653/Projects/FairAffect
+dataset_root: &dataset_root /path/to/Dataset_root
+restructured_csv_root: &restructured_csv_root /path/to/Dataset_root
+output_root: /path/to/Fair-Consistent-Affect-Analysis
+code_root: /path/to/Fair-Consistent-Affect-Analysis
 
 # AffectNet =======================================================================================================
 # EXPR 7
-AffectNet-7_dataset_root: !join_path [ *dataset_root, AffectNet/images/dimitrios/dimitrios ]
-AffectNet-7_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/new/EXPR/expr7 ]
+AffectNet-7_dataset_root: !join_path [ *dataset_root, AffectNet/images ]
+AffectNet-7_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/EXPR/expr7 ]
 AffectNet-7_num_class: 7
 
 # EXPR 8
-AffectNet-8_dataset_root: !join_path [ *dataset_root, AffectNet/images/dimitrios/dimitrios ]
-AffectNet-8_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/new/EXPR/expr8 ]
+AffectNet-8_dataset_root: !join_path [ *dataset_root, AffectNet/images ]
+AffectNet-8_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/EXPR/expr8 ]
 AffectNet-8_num_class: 8
 
 # VA
-AffectNet-VA_dataset_root: !join_path [ *dataset_root, AffectNet/images/dimitrios/dimitrios ]
-AffectNet-VA_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/new/VA ]
+AffectNet-VA_dataset_root: !join_path [ *dataset_root, AffectNet/images ]
+AffectNet-VA_csv_root: !join_path [ *restructured_csv_root, AffectNet/annotations/VA ]
 AffectNet-VA_num_class: 2
 
 # RAF-DB ==========================================================================================================
-RAF-DB_dataset_root: !join_path [ *dataset_root, RAF-DB/basic/images/better_crop_dimitrios ]
-RAF-DB_csv_root: !join_path [ *restructured_csv_root, RAF-DB/basic/annotations/new ]
+RAF-DB_dataset_root: !join_path [ *dataset_root, RAF-DB/basic/images ]
+RAF-DB_csv_root: !join_path [ *restructured_csv_root, RAF-DB/basic/annotations ]
 RAF-DB_num_class: 7
 
 # DISFA ===========================================================================================================
-DISFA_dataset_root: !join_path [ *dataset_root, DISFA/images/dimitrios/disfa_aligned ]
-DISFA_csv_root: !join_path [ *restructured_csv_root, DISFA/annotations/new ]
+DISFA_dataset_root: !join_path [ *dataset_root, DISFA/images ]
+DISFA_csv_root: !join_path [ *restructured_csv_root, DISFA/annotations ]
 DISFA_num_class: 12
 
 # EmotioNet =======================================================================================================
-EmotioNet_dataset_root: !join_path [ *dataset_root, EmotioNet/images/dimitrios ]
-EmotioNet_csv_root: !join_path [ *restructured_csv_root, EmotioNet/annotations/new ]
+EmotioNet_dataset_root: !join_path [ *dataset_root, EmotioNet/images ]
+EmotioNet_csv_root: !join_path [ *restructured_csv_root, EmotioNet/annotations ]
 EmotioNet_num_class: 11
 
 # GFT =============================================================================================================
-GFT_dataset_root: !join_path [ *dataset_root, GFT/images/dimitrios/gft_aligned ]
-GFT_csv_root: !join_path [ *restructured_csv_root, GFT/annotations/new ]
+GFT_dataset_root: !join_path [ *dataset_root, GFT/images ]
+GFT_csv_root: !join_path [ *restructured_csv_root, GFT/annotations ]
 GFT_num_class: 14
 
 # RAF-AU ==========================================================================================================
-RAF-AU_dataset_root: !join_path [ *dataset_root, RAF-AU/images/aligned ]
-RAF-AU_csv_root: !join_path [ *restructured_csv_root, RAF-AU/annotations/new ]
+RAF-AU_dataset_root: !join_path [ *dataset_root, RAF-AU/images ]
+RAF-AU_csv_root: !join_path [ *restructured_csv_root, RAF-AU/annotations ]
 RAF-AU_num_class: 13
-
-# mae ===========================================================================================
-mae_pretrain_vit_base: /homes/gh653/Projects/mae/mae_pretrain_vit_base.pth
-
-
 
