@@ -302,8 +302,6 @@ The output will be saved to `Fair-Consistent-Affect-Analysis/output`
 	- `*_inference_results.pkl`: Inference results of the test set
 - `tensorboard`: TensorBoard file
 - `best_result.txt`: Best result of global validation and its fairness result
-- `*_full_table`: Best result in CSV format
-- `*_concise_table`: Best result in CSV format, concise table
 - `fair_result`: Fairness results of each epoch
 - `result`: Global validation results of each epoch
 
@@ -316,10 +314,8 @@ DISFA-convnext_base-[0524-1725]-lr0.0001-bs128
 │   ├── convnext_base_DISFA_best_f1_macro_threshold0.8_fair_results.pkl
 │   └── convnext_base_DISFA_best_f1_macro_threshold0.8_inference_results.pkl
 ├── tensorboard
-│   └── events.out.tfevents.rdg3.43074.0
+│   └── events.out.tfevents.abc.43074.0
 ├── best_result.txt
-├── convnext_base_DISFA_full_table.csv
-├── convnext_base_DISFA_concise_table.csv
 ├── fair_result.txt
 ├── loss.txt
 └── result.txt
@@ -335,13 +331,13 @@ DISFA-convnext_base-[0524-1725]-lr0.0001-bs128
 - To test the `vit_b_16` checkpoint pre-trained on the dataset `EmotioNet`:
 
 ```shell
-python run.py --dataset AffectNet-VA -bs 128 --fair --eval --ckeckpoint_path /path/to/vit_b_16_AffectNet-VA_best_ccc_va.pth
+python run.py --dataset AffectNet-VA -bs 128 --fair --eval --ckeckpoint_path /path/to/vit_b_16_AffectNet-VA.pth
 ```
 
 - To test the `resnext50` checkpoint pre-trained on the dataset `RAF-DB`:
 
 ```shell
-python run.py --dataset AffectNet-7 -bs 128 --fair --eval --ckeckpoint_path /path/to/resnext50_32x4d_RAF-DB_best_f1_macro.pth
+python run.py --dataset AffectNet-7 -bs 128 --fair --eval --ckeckpoint_path /path/to/resnext50_32x4d_RAF-DB.pth
 ```
 
 ## 10 Acknowledgements
