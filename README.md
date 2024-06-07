@@ -2,10 +2,12 @@
 
 **The project is an official implementation of our paper:**  
 
-> **[Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis]()**  
+> **[Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis]()** (IEEE FG 2024) 
 > **Guanyu Hu, Eleni Papadopoulou, Dimitrios Kollias, Paraskevi Tzouveli, Jie Wei and Xinyu Yang**
 
-This work analyzes the most commonly used affective databases, annotates their demographic attributes, and proposes a standardized protocol for database partitioning, emphasizing fairness in evaluations. Extensive experiments, utilizing both baseline and state-of-the-art methods, underscore the significance of fairness, revealing the inadequacy of prior assessments. The findings highlight the critical importance of incorporating fairness concerning demographic attributes in affective analysis, providing a foundation for developing more equitable methodologies.
+The increasing integration of machine learning algorithms in daily life underscores the critical need for fairness and equity in their deployment. As these technologies play a pivotal role in decision-making, addressing biases across diverse subpopulation groups, including age, gender, and race, becomes paramount. Automatic affect analysis, at the intersection of physiology, psychology, and machine learning, has seen significant development. However, existing databases and methodologies lack uniformity, leading to biased evaluations. 
+This work addresses these issues by analyzing six affective databases, annotating demographic attributes, and proposing a common protocol for database partitioning. Emphasis is placed on fairness in evaluations. Extensive experiments with baseline and state-of-the-art methods demonstrate the impact of these changes, revealing the inadequacy of prior assessments. The findings underscore the importance of considering demographic attributes in affect analysis research and provide a foundation for more equitable methodologies.
+
 
 ## 1 Agreement Form
 
@@ -350,13 +352,13 @@ This repo is based on the following projects, We thank the authors a lot for the
 
 ## 11 Citation
 
-Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follows.
+Please cite the below paper in your publications if you use our developments (annotations, partitions, and/or trained models). BibTeX reference is as follows:
 
 ```bibtex
-@inproceedings{Hu2024Bridging,
-  author = {Guanyu Hu, Eleni Papadopoulou, Dimitrios Kollias, Paraskevi Tzouveli, Jie Wei and Xinyu Yang},
-  title = {Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis},
-  journal = {2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)},
-  year = {2024}
+@article{hu2024bridging,
+  title={Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis},
+  author={Hu, Guanyu and Papadopoulou, Eleni and Kollias, Dimitrios and Tzouveli, Paraskevi and Wei, Jie and Yang, Xinyu},
+  journal={arXiv preprint arXiv:2405.06841},
+  year={2024}
 }
 ```
