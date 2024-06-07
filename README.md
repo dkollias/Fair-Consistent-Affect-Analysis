@@ -3,6 +3,7 @@
 **The project is an official implementation of our paper:**  
 
 > **[Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis]() (IEEE FG 2024)**
+> 
 > **Guanyu Hu, Eleni Papadopoulou, Dimitrios Kollias, Paraskevi Tzouveli, Jie Wei and Xinyu Yang**
 
 The increasing integration of machine learning algorithms in daily life underscores the critical need for fairness and equity in their deployment. As these technologies play a pivotal role in decision-making, addressing biases across diverse subpopulation groups, including age, gender, and race, becomes paramount. Automatic affect analysis, at the intersection of physiology, psychology, and machine learning, has seen significant development. However, existing databases and methodologies lack uniformity, leading to biased evaluations. 
