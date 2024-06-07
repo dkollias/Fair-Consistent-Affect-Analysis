@@ -22,9 +22,8 @@ You can download the dataset from http://mohammadmahoor.com/affectnet/
 
 **EXPR-7/8**
 - New Partition and Annotations (5 columns):
-	- 7 class CSV Path: `AffectNet/annotations/EXPR/expr7`
-		- Expression Labels: ['Anger', 'Disgust', 'Fear', 'Happiness', 'Neutral', 'Sadness', 'Surprise']
-	- 8 class CSV Path: `AffectNet/annotations/EXPR/expr8`
+	- The split between AffectNet 7 and AffectNet 8 is exactly the same. By simply deleting the images and corresponding labels for 'contempt', AffectNet 7 can be derived from AffectNet 8
+	- 8 class CSV Path: `AffectNet/annotations/EXPR`
 		- Expression Labels: ['Anger', 'Contempt', 'Disgust', 'Fear', 'Happiness', 'Neutral', 'Sadness', 'Surprise']
 	- Header: [name, expression, age, gender, race]
 	- Demographic Labels:
