@@ -10,11 +10,11 @@ The increasing integration of machine learning algorithms in daily life undersco
 This work addresses these issues by analyzing six affective databases, annotating demographic attributes, and proposing a common protocol for database partitioning. Emphasis is placed on fairness in evaluations. Extensive experiments with baseline and state-of-the-art methods demonstrate the impact of these changes, revealing the inadequacy of prior assessments. The findings underscore the importance of considering demographic attributes in affect analysis research and provide a foundation for more equitable methodologies.
 
 
-## 1 Agreement Form
+## 1 Access to Developments of our Work
 
-** If you are an academic (i.e., a person with a permanent position at a university, e.g. a professor, but not a Post-Doc or a PhD/PG/UG student), to request the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please: i) send an email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request by academic; ii) use your official academic email (as data cannot be released to personal emails); iii) include in the email the [AGREEMENT FORM](), the reason why you require access to these developments, and your official academic website.**
+**If you are an academic (i.e., a person with a permanent position at a university, e.g. a professor, but not a Post-Doc or a PhD/PG/UG student), to request the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please: i) send an email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request by academic; ii) use your official academic email (as data cannot be released to personal emails); iii) include in the email the [AGREEMENT FORM](), the reason why you require access to these developments, and your official academic website.**
 
-** If you are from industry and you want to acquire the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please send an email from your official industrial email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request from industry and explain the reason why the database access is needed; also specify if it is for research or commercial purposes.
+**If you are from industry and you want to acquire the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please send an email from your official industrial email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request from industry and explain the reason why the database access is needed; also specify if it is for research or commercial purposes.**
 
 
 ## 2 Datasets
