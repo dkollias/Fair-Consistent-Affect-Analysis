@@ -15,7 +15,7 @@ This work addresses these issues by analyzing six affective databases, annotatin
 **If you are an academic (i.e., a person with a permanent position at a university, e.g. a professor, but not a Post-Doc or a PhD/PG/UG student), to request the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please: <br>
 i) send an email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request by academic; <br>
 ii) use your official academic email (as data cannot be released to personal emails); <br>
-iii) include in the email the [AGREEMENT FORM](), the reason why you require access to these developments, and your official academic website.**
+iii) include in the email the [AGREEMENT FORM](https://drive.google.com/file/d/1XnqJIlKMoXEuQwkQl-l6Uh6XtISxtxqH/view?usp=sharing), the reason why you require access to these developments, and your official academic website.**
 
 **If you are from industry and you want to acquire the developments of our work (i.e., annotations, partitions, and pre-trained models-checkpoints), please send an email from your official industrial email to d.kollias@qmul.ac.uk with subject: Fair and Consistent Affect Analysis request from industry and explain the reason why the database access is needed; also specify if it is for research or commercial purposes.**
 
