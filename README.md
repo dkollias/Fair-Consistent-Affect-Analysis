@@ -1,10 +1,15 @@
 # Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis
 
-**The project is an official implementation of our paper:**  
+**The project is an official implementation of two papers:**  
 
 > **[Bridging the Gap: Protocol Towards Fair and Consistent Affect Analysis]() (IEEE FG 2024)**
 > 
 > **Guanyu Hu, Eleni Papadopoulou, Dimitrios Kollias, Paraskevi Tzouveli, Jie Wei and Xinyu Yang**
+
+> **[Rethinking affect analysis: A protocol for ensuring fairness and consistency]() (IEEE TBIOM 2025)**
+> 
+> **Guanyu Hu, Dimitrios Kollias, Eleni Papadopoulou, Paraskevi Tzouveli, Jie Wei and Xinyu Yang**
+
 
 The increasing integration of machine learning algorithms in daily life underscores the critical need for fairness and equity in their deployment. As these technologies play a pivotal role in decision-making, addressing biases across diverse subpopulation groups, including age, gender, and race, becomes paramount. Automatic affect analysis, at the intersection of physiology, psychology, and machine learning, has seen significant development. However, existing databases and methodologies lack uniformity, leading to biased evaluations. 
 This work addresses these issues by analyzing six affective databases, annotating demographic attributes, and proposing a common protocol for database partitioning. Emphasis is placed on fairness in evaluations. Extensive experiments with baseline and state-of-the-art methods demonstrate the impact of these changes, revealing the inadequacy of prior assessments. The findings underscore the importance of considering demographic attributes in affect analysis research and provide a foundation for more equitable methodologies.
@@ -354,7 +359,7 @@ This repo is based on the following projects, We thank the authors a lot for the
 
 ## 11 Citation
 
-Please cite the below paper in your publications if you use our developments (annotations, partitions, and/or trained models). BibTeX reference is as follows:
+Please cite the below papers in your publications if you use our developments (annotations, partitions, and/or trained models). BibTeX references are as follows:
 
 ```bibtex
 @article{hu2024bridging,
@@ -362,5 +367,16 @@ Please cite the below paper in your publications if you use our developments (an
   author={Hu, Guanyu and Papadopoulou, Eleni and Kollias, Dimitrios and Tzouveli, Paraskevi and Wei, Jie and Yang, Xinyu},
   journal={arXiv preprint arXiv:2405.06841},
   year={2024}
+}
+```
+
+```bibtex
+@article{hu2025rethinking,
+  title={Rethinking affect analysis: A protocol for ensuring fairness and consistency},
+  author={Hu, Guanyu and Kollias, Dimitrios and Papadopoulou, Eleni and Tzouveli, Paraskevi and Wei, Jie and Yang, Xinyu},
+  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
+  year={2025},
+  publisher={IEEE}
+}
 }
 ```
